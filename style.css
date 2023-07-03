@@ -2,6 +2,7 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
+    flex: auto;
     margin: 0;
 }
 
@@ -81,12 +82,16 @@ img {
     color: #f9faf8;
 }
 
+.information {
+    margin: 50px 0;
+}
+
 .information-header {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
     text-align: center;
-    margin: 40px 0;
+    margin-bottom: 40px;
 }
 
 .info-container {
@@ -106,8 +111,26 @@ img {
     border-radius: 4px;
 }
 
-.quote-container {
+.quotation {
+    background-color: #e5e7eb;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 300px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: auto;
 }
 
 .call-signin {
