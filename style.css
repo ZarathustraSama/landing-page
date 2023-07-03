@@ -133,8 +133,37 @@ img {
     margin-left: auto;
 }
 
-.call-signin {
+.call-to-action {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.call-container {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    width: auto;
+    border-radius: 4px;
+    margin: 70px 0;
+    padding: 40px 120px;
+    gap: 100px;
+}
+
+.call-text-main {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-text-secondary {
+    font-size: 20px;
+}
+
+
+
+.call-to-action button {
+    border-color: #fff;
 }
 
 .footer {
