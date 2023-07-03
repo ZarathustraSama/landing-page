@@ -160,12 +160,15 @@ img {
     font-size: 20px;
 }
 
-
-
 .call-to-action button {
     border-color: #fff;
 }
 
 .footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 32px;
 }
